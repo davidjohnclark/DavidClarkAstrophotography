@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Star and crescent aperture">
+  <defs>
+    <radialGradient id="space" cx="32%" cy="24%" r="85%">
+      <stop offset="0" stop-color="#4c72a8"/>
+      <stop offset="0.55" stop-color="#171d3a"/>
+      <stop offset="1" stop-color="#050711"/>
+    </radialGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#bd9cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#space)"/>
+  <circle cx="30" cy="32" r="17" fill="none" stroke="#8ec5ff" stroke-width="3" opacity=".75"/>
+  <path d="M30 7l3.8 16.2L50 27l-16.2 3.8L30 47l-3.8-16.2L10 27l16.2-3.8z" fill="url(#star)"/>
+  <circle cx="49" cy="13" r="2" fill="#fff" opacity=".9"/>
+</svg>
